@@ -1,0 +1,347 @@
+body{
+    width: 100% ;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #ff7501; */
+    /* font-weight: 00; */
+}
+#video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+   transform: translate(-50%,-50%);
+}
+img{
+   opacity: 1;
+}
+
+.bg{
+     background-image: url(./66bf2e6a-6b6e-4669-bb9b-cf4e2c6cc841.jpeg); 
+    background-color: #d8936b;
+    display: block;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 0;
+    font-weight: 400;
+}
+.jeu{
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 1;
+    flex-direction: column;
+    text-shadow: 0 0 2px rgb(0, 0 , 0);
+    box-sizing: border-box;
+    
+}
+.frive span:hover {
+    color: red;
+}
+.game span:hover{
+    color: red;
+}
+
+.frive , .game{
+    padding: 0 6px;
+    font-size: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: rgb(255, 255, 255,.7);
+    background-color: rgb(192, 186, 186);
+    opacity: 0.6;
+    border-radius: 9px;
+    height: 25px;
+    text-align: center;
+}
+i{
+    padding: 0 6px;
+    font-size: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.b{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-shadow: 0 0 5px;
+    color: #f0eeee;
+}
+span {
+    color: #fff;
+    text-shadow: 0 0 5px #cfc8c8;
+    text-align: center;
+}
+.container{
+    padding-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    z-index: 1;
+}
+.rech1{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.rech1 span{
+    margin-left: 8px;
+    box-shadow: #fff 5px;
+}
+.rech {
+    border-radius: 16px;
+    width: 80%;
+    height: 72%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #fff;
+}
+.rech input{
+    width: 70%;
+    border: 0;
+    outline: none;
+    color: #000;
+    /* font-size: 15px; */
+}
+/* 
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: aqua;
+
+} */
+ .icons i {
+    font-size: 20px;
+ }
+.icons{
+   color: rgb(5, 5, 5);
+   margin-left: 30%;
+   margin-top: 1%;
+} */
+.ad{
+    margin-left: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    color: #e9dfdf;
+}
+/* ------------------------------------------- */
+.i1 :hover, .i2:hover {
+    background-color: gray;
+    border-radius: 12px;
+}
+.fene{
+    position: absolute;
+    top: 60px;                   
+    width: 23%;
+    left: 2%;
+    bottom: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;   
+}
+
+.nt1{
+    display: block;
+    background-color: rgb(141, 137, 137);
+    opacity: 0.6;  
+   width: 170px; 
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 40%;
+}
+
+.nt{
+    display: block;
+    background-color: rgb(192, 186, 186);
+    opacity: 0.6;  
+   width: 170px; 
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 40%;
+}
+.cnt{
+    margin-right: 40%;
+}
+h5 , p{
+    margin-left: 65px;
+    /* margin-top: 12px; */
+    color: #f9f4f4;
+}
+.ajt{
+    margin-bottom: 0;
+    border-radius: 8px;
+    height: 54px;
+  
+}
+.ajt span {
+    margin-left: 4px;
+    font-size: 15px;
+}
+.cn{
+    /* max-height: 40px; */
+    border-radius: 8px;
+    background-color: rgb(192, 186, 186);
+    opacity: 0.6;  
+    width: 170px; 
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.cn span {
+    margin-left: 1px;
+    font-size: 15px;
+}
+.ajt i{
+    margin-top: 10px;
+}
+.cn i {
+    margin-top: 10px;
+}
+button{
+    margin-right: 62%;
+    color: rgb(135, 132, 132);
+    opacity: 0.4;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 6px 15px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.date{
+    position: absolute;
+    color: #ffffff;
+    right: 10px;
+    bottom: 5px;
+    z-index: 1;
+    display: flex;
+    text-shadow: 0 0 5px black;
+}
+.frive i:hover, .game i:hover , .da i:hover{
+    color: red;
+}
+
+.da {
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+    text-align: center;
+    right: 10px;
+}
+.da1{
+    position: absolute;
+    color: #fff;
+    bottom: 35px;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 2px;
+    margin-left: 4%;
+    width: 35px;
+    height: 30px;
+
+}
+.da2{
+    position: absolute;
+    color: #fff;
+    bottom: 35px;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 2px;
+    margin-left: 7%;
+    height: 30px;
+
+
+}
+.da3{
+    position: absolute;
+    color: #fff;
+    bottom: 35px;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 2px;
+    margin-left: 10%;
+    height: 30px;
+}
+.da i {
+    margin-top:5px;
+}
+.hr{
+    padding: 7px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: grey;
+    opacity: 0.6;
+}
+.heur{
+    font-size: 32px;
+}
+.dt{
+    font-size: 12px;
+}
+ .ad i:hover,.i1:hover, .i2:hover, .ajt i:hover, .cn i:hover{
+    color: grey;
+ }
+ .fene {
+    width: 300px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .fene::-webkit-scrollbar {
+    width: 12px;
+    
+}
+
+.fene::-webkit-scrollbar-track {
+    /* background: #ffffff; */
+    border-radius: 10px;
+    margin-left: 15%;
+}
+
+.fene::-webkit-scrollbar-thumb {
+     border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* .fene::-webkit-scrollbar-thumb:hover {
+    background: #ccc;
+} */
