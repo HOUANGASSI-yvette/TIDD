@@ -3,23 +3,7 @@ body{
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #ff7501; */
-    /* font-weight: 00; */
-}
-#video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-   transform: translate(-50%,-50%);
-}
-img{
-   opacity: 1;
-}
-
-.bg{
-     background-image: url(./66bf2e6a-6b6e-4669-bb9b-cf4e2c6cc841.jpeg); 
-    background-color: #d8936b;
+   background-color: #dea56d; 
     display: block;
     background-position: center;
     background-size: cover;
@@ -28,7 +12,6 @@ img{
     width: 100%;
     top: 0;
     height: 100%;
-    opacity: 0.7;
     z-index: 0;
     font-weight: 400;
 }
@@ -58,7 +41,6 @@ img{
     cursor: pointer;
     color: rgb(255, 255, 255,.7);
     background-color: rgb(192, 186, 186);
-    opacity: 0.6;
     border-radius: 9px;
     height: 25px;
     text-align: center;
@@ -93,11 +75,12 @@ span {
     text-align: center;
 }
 .container{
-    padding-top: 60px;
+    padding-top: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 10px;
 }
 .content{
     display: flex;
@@ -131,7 +114,7 @@ span {
     background-color: #fff;
 }
 .rech input{
-    width: 70%;
+    width: 95%;
     border: 0;
     outline: none;
     color: #000;
@@ -144,9 +127,7 @@ span {
     background-color: aqua;
 
 } */
- .icons i {
-    font-size: 20px;
- }
+
 .icons{
    color: rgb(5, 5, 5);
    margin-left: 30%;
@@ -164,7 +145,7 @@ span {
 }
 /* ------------------------------------------- */
 .i1 :hover, .i2:hover {
-    background-color: gray;
+    background-color:  rgb(184, 184, 184);
     border-radius: 12px;
 }
 .fene{
@@ -182,19 +163,17 @@ span {
 .nt1{
     display: block;
     background-color: rgb(141, 137, 137);
-    opacity: 0.6;  
-   width: 170px; 
-    border-radius: 5px;
+   width: 190px; 
+    border-radius: 7px;
     margin-top: 35px;
     margin-right: 40%;
 }
 
 .nt{
     display: block;
-    background-color: rgb(192, 186, 186);
-    opacity: 0.6;  
-   width: 170px; 
-    border-radius: 5px;
+    background-color: rgb(192, 186, 186); 
+   width: 190px; 
+    border-radius: 7px;
     margin-top: 35px;
     margin-right: 40%;
 }
@@ -220,10 +199,9 @@ h5 , p{
     /* max-height: 40px; */
     border-radius: 8px;
     background-color: rgb(192, 186, 186);
-    opacity: 0.6;  
     width: 170px; 
     height: 45px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin-top: 15px;
 }
 .cn span {
@@ -239,22 +217,13 @@ h5 , p{
 button{
     margin-right: 62%;
     color: rgb(135, 132, 132);
-    opacity: 0.4;
     border-radius: 15px;
     font-size: 11px;
     padding: 6px 15px;
     cursor: pointer;
     margin-top: 15px;
 }
-.date{
-    position: absolute;
-    color: #ffffff;
-    right: 10px;
-    bottom: 5px;
-    z-index: 1;
-    display: flex;
-    text-shadow: 0 0 5px black;
-}
+
 .frive i:hover, .game i:hover , .da i:hover{
     color: red;
 }
@@ -270,7 +239,6 @@ button{
     color: #fff;
     bottom: 35px;
     background-color: grey;
-    opacity: 0.6;
     border-radius: 2px;
     margin-left: 4%;
     width: 35px;
@@ -282,7 +250,6 @@ button{
     color: #fff;
     bottom: 35px;
     background-color: grey;
-    opacity: 0.6;
     border-radius: 2px;
     margin-left: 7%;
     height: 30px;
@@ -294,7 +261,6 @@ button{
     color: #fff;
     bottom: 35px;
     background-color: grey;
-    opacity: 0.6;
     border-radius: 2px;
     margin-left: 10%;
     height: 30px;
@@ -302,46 +268,56 @@ button{
 .da i {
     margin-top:5px;
 }
+
+
+ .ad i:hover,.i1:hover, .i2:hover, .ajt i:hover, .cn i:hover{
+    color: grey;
+ }
+ .fene {
+    width: 230px;
+    height: 90%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+ }
+ .fene::-webkit-scrollbar {
+    width: 120px;
+    
+}
+.x{
+    position: absolute;
+    top: 185px;
+    font-size: 20px;
+    color: #cfc8c8;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    color: #ffffff;
+    right: 10px;
+    bottom: 5px;
+    z-index: 1;
+    display: flex;
+    text-shadow: 0 0 5px black;
+}
 .hr{
     padding: 7px;
     border-radius: 6px;
     cursor: pointer;
     background-color: grey;
-    opacity: 0.6;
+    width: 140px;
+  
 }
 .heur{
-    font-size: 32px;
+    font-size: 22px;
 }
 .dt{
-    font-size: 12px;
+    font-size: 10px;
 }
- .ad i:hover,.i1:hover, .i2:hover, .ajt i:hover, .cn i:hover{
-    color: grey;
- }
- .fene {
-    width: 300px;
-    height: 400px;
-    overflow-y: scroll;
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 10px;
- }
- .fene::-webkit-scrollbar {
-    width: 12px;
-    
+.masque{
+    opacity: 0;
+    transition: opacity 1s ease;
 }
-
-.fene::-webkit-scrollbar-track {
-    /* background: #ffffff; */
-    border-radius: 10px;
-    margin-left: 15%;
+body:hover .masque{
+    opacity: 1;
 }
-
-.fene::-webkit-scrollbar-thumb {
-     border-radius: 10px;
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
-
-/* .fene::-webkit-scrollbar-thumb:hover {
-    background: #ccc;
-} */
