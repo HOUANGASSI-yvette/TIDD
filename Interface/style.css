@@ -3,8 +3,9 @@ body{
     height: 100%;
     margin: 0;
     box-sizing: border-box;
-   background-color: #dea56d; 
     display: block;
+    background: url(/video.mp4);
+    background-color: rgb(197, 158, 108);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -15,6 +16,13 @@ body{
     z-index: 0;
     font-weight: 400;
 }
+
+ /* .video-background {
+    position: relative;
+    height: 100%;
+    width: 100%;
+ }
+  */
 .jeu{
     display: block;
     position: absolute;
@@ -42,7 +50,7 @@ body{
     color: rgb(255, 255, 255,.7);
     background-color: rgb(192, 186, 186);
     border-radius: 9px;
-    height: 25px;
+    height: 35px;
     text-align: center;
 }
 i{
@@ -89,6 +97,10 @@ span {
     flex-direction: column;
     width: 50%;
     z-index: 1;
+    padding: 0 6px;
+    font-size: 15px;
+    display: inline-block;
+    box-sizing: border-box;
 }
 .rech1{
     display: flex;
@@ -97,6 +109,7 @@ span {
     justify-content: center;
     align-items: center;
     height: 35px;
+    box-shadow: #000 12px ;
 }
 
 .rech1 span{
@@ -120,18 +133,15 @@ span {
     color: #000;
     /* font-size: 15px; */
 }
-/* 
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-    background-color: aqua;
-
+/* .icons :hover{
+   background-color:  ;
 } */
 
 .icons{
    color: rgb(5, 5, 5);
    margin-left: 30%;
-   margin-top: 1%;
+
+   /* margin-top: 1%; */
 } */
 .ad{
     margin-left: 250px;
@@ -285,7 +295,7 @@ button{
 }
 .x{
     position: absolute;
-    top: 185px;
+    top: 53px;
     font-size: 20px;
     color: #cfc8c8;
     cursor: pointer;
@@ -304,7 +314,7 @@ button{
     padding: 7px;
     border-radius: 6px;
     cursor: pointer;
-    background-color: grey;
+    background-color:  rgb(149, 145, 145) ;
     width: 140px;
   
 }
@@ -320,4 +330,168 @@ button{
 }
 body:hover .masque{
     opacity: 1;
+}
+/* .bas{
+    position: fixed;
+} */
+
+@media (max-width: 768px) {
+    .da {
+        color: #fff;
+        text-shadow: 0 0 5px #000;
+        text-align: center;
+        align-items: center;
+        right: 5px;
+        width: 220px;
+        justify-content: space-between;
+        margin-bottom: 12px;
+    }
+    .da1{
+        position: absolute;
+        color: #fff;
+        bottom: 25px;
+        background-color: grey;
+        border-radius: 2px;
+        margin-left: 4%;
+        width: 25px;
+        height: 20px;
+    
+    }
+    .da2{
+        position: absolute;
+        color: #fff;
+        bottom: 25px;
+        background-color: grey;
+        border-radius: 2px;
+        margin-left: 9%;
+        height: 15px;
+    
+    
+    }
+    .da3{
+        position: absolute;
+        color: #fff;
+        bottom: 25px;
+        background-color: grey;
+        border-radius: 2px;
+        margin-left: 12%;
+        height: 30px;
+    }
+    .da i {
+        margin-top:5px;
+    }
+    .da i:hover{
+        color: red;
+    }
+    .icons{
+        color: rgb(5, 5, 5);
+        margin-left: 34%;
+     }
+    .icons .img{
+        width: 45px;
+    }
+     .x{
+        position: absolute;
+        top: 50px;
+        font-size: 20px;
+        color: #cfc8c8;
+        cursor: pointer;
+    }
+    .date{
+        position: absolute;
+        color: #ffffff;
+        right: 10px;
+        bottom: 5px;
+        z-index: 1;
+        display: flex;
+        text-shadow: 0 0 5px black;
+    }
+    .hr{
+        padding: 7px;
+        border-radius: 6px;
+        cursor: pointer;
+        background-color:  rgb(149, 145, 145) ;
+        width: 120px;
+      
+    }
+    .heur{
+        font-size: 18px;
+    }
+    .b{
+        position: absolute;
+        bottom: 8px;
+        left: 0;
+        right: 0;
+        margin-left: 15px;
+        margin-right: 30px;
+        width: 65%;
+        font-size: 12px ;
+        text-align: center;
+    }
+    .ad i:hover,.i1:hover, .i2:hover, .ajt i:hover, .cn i:hover{
+        color: grey;
+     }
+     .fene {
+        width: 170px;
+        height: 80%;
+       overflow-y: scroll;
+       overflow-x: hidden;
+     }
+     .fene::-webkit-scrollbar {
+        width: 120px;
+    }
+    .nt1{
+        display: block;
+        background-color: rgb(141, 137, 137);
+        width: 110px; 
+        border-radius: 7px;
+        margin-top: 25px;
+        margin-right: 35%;
+    }
+    
+    .nt .cnt{
+        display: block;
+        background-color: rgb(192, 186, 186); 
+        width: 120px; 
+        border-radius: 7px;
+        margin-top: 25px;
+        font-size: 10px ;
+    }
+    h5 , p{
+        margin-left: 35px;
+        font-size: 10px;
+        color: #f9f4f4;
+    }
+    .rech1{
+        display: flex;
+        width: 99%;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        height: 35px;
+        margin-left: 22px;
+        box-shadow: #000 12px ;
+    }
+    
+    .rech1 span{
+        margin-left: 22px;
+        box-shadow: #fff 5px;
+    }
+    .rech {
+        border-radius: 16px;
+        width: 70%;
+        height: 72%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: #fff;
+    }
+    .rech input{
+        width: 73%;
+        border: 0;
+        outline: none;
+        color: #000;
+        /* font-size: 15px; */
+    }
 }
