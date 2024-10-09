@@ -1,28 +1,29 @@
 body{
-    width: 100% ;
-    height: 100%;
     margin: 0;
     box-sizing: border-box;
     display: block;
-    background: url(/video.mp4);
-    background-color: rgb(197, 158, 108);
     background-position: center;
+    background-repeat: no-repeat;
+    background: url(./img.jpg);
     background-size: cover;
     position: absolute;
     left: 0;
     width: 100%;
     top: 0;
     height: 100%;
-    z-index: 0;
     font-weight: 400;
+    overflow: hidden;
 }
 
- /* .video-background {
+  /* .video-background {
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     height: 100%;
     width: 100%;
+    z-index: -1;
  }
-  */
+   */
 .jeu{
     display: block;
     position: absolute;
@@ -125,6 +126,7 @@ span {
     justify-content: center;
     position: relative;
     background-color: #fff;
+    box-shadow: #000 12px ;
 }
 .rech input{
     width: 95%;
@@ -140,6 +142,7 @@ span {
 .icons{
    color: rgb(5, 5, 5);
    margin-left: 30%;
+   z-index: 1;
 
    /* margin-top: 1%; */
 } */
@@ -297,8 +300,9 @@ button{
     position: absolute;
     top: 53px;
     font-size: 20px;
-    color: #cfc8c8;
+    color: #211e1e;
     cursor: pointer;
+    z-index: 1;
 }
 
 .date{
@@ -386,16 +390,19 @@ body:hover .masque{
     .icons{
         color: rgb(5, 5, 5);
         margin-left: 34%;
+        z-index: 1;
      }
     .icons .img{
         width: 45px;
+        z-index: 1;
     }
      .x{
         position: absolute;
         top: 50px;
         font-size: 20px;
-        color: #cfc8c8;
+        color: #181414;
         cursor: pointer;
+        z-index: 1;
     }
     .date{
         position: absolute;
@@ -486,6 +493,7 @@ body:hover .masque{
         justify-content: center;
         position: relative;
         background-color: #fff;
+        box-shadow: #000 12% ;
     }
     .rech input{
         width: 73%;
